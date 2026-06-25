@@ -14,7 +14,7 @@ const fallbackHistory = [
   { time: '11:00', sxr: 2e-6, hxr: 1e-6, flare: 2e-6 },
   { time: '11:10', sxr: 7e-7, hxr: 6e-7, flare: null },
 ];
-
+ fetch(`${import.meta.env.VITE_API_URL}/health`)
 const activeRegions = [
   { id: 'AR4087', type: 'Beta-Gamma', area: '320 µHem', location: 'N18W25', className: 'M1.2' },
   { id: 'AR4086', type: 'Beta', area: '150 µHem', location: 'S12E40', className: 'C3.4' },
