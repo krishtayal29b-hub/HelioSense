@@ -1,4 +1,4 @@
-import ThreeSun from '../components/ThreeSun';
+// import ThreeSun from '../components/ThreeSun';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Activity, BrainCircuit, BarChart2, ShieldCheck, Bell, ArrowRight } from 'lucide-react';
@@ -7,9 +7,9 @@ export default function LandingPage() {
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center pt-24 pb-12 px-6">
       {/* Background Image */}
-      <div className="absolute right-10 top-24 w-[420px] h-[420px] hidden lg:block">
+      {/* /* <div className="absolute right-10 top-24 w-[420px] h-[420px] hidden lg:block">
   <ThreeSun />
-</div>
+</div> */ */}
       <div 
         className="fixed inset-0 z-[-1] bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: "url('/landing_bg.png')" }}
